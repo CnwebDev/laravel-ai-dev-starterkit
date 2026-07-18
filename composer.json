@@ -64,8 +64,8 @@
             "pint --parallel --test"
         ],
         "ci:check": [
-            "Composer\\Config::disableProcessTimeout",
-            "@test"
+            "@php artisan config:clear --ansi",
+            "@php artisan test"
         ],
         "types:check": [
             "phpstan analyse"
