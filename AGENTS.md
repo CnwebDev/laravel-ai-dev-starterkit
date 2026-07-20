@@ -172,5 +172,6 @@ This project has domain-specific skills available in `**/skills/**`. You MUST ac
 - The `{name}` argument should not include the test suite directory. Use `php artisan make:test --pest SomeFeatureTest` instead of `php artisan make:test --pest Feature/SomeFeatureTest`.
 - Run tests: `php artisan test --compact` or filter: `php artisan test --compact --filter=testName`.
 - Do NOT delete tests without approval.
+- 
 
 </laravel-boost-guidelines>
